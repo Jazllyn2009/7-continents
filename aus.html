@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="aus.css">
+</head>
+<body>
+   <nav>
+        <ul>
+  <li class="items"><a href="lets.html">LET'S EXPLORE</a></li>
+  <li class="items"><a href="">ABOUT</a></li>
+  <li class="items"><a href="">QUIZ TIME</a></li>
+  <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+  </ul>
+  </nav>
+      <script>
+        $(document).ready(function(){
+          $('.btn').click(function(){
+            $('.items').toggleClass("show");
+            $('ul li').toggleClass("hide");
+          });
+        });
+      </script>
+    <h1>Australia</h1>
+    <br>
+    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEA8QEBETEhUPFRIQDxYXEA8YFRcWFxMWFhUXFhUYHCggGBolGxgTIjEhJSkrLi4uGCAzODMsNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALwBDQMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAQUCBAYDB//EADMQAAICAAQEAwcEAQUAAAAAAAABAhEDBAUhEjFBcVFhgSIyUpGhscETQtHhIxRikvDx/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APuIAAAAAAAAAAAAAAAABjGabaTTa5q1t3AyPBzkmuJxird+fOt+m257SlSbfTc5vN4vHNu20+VqvSgLbMZmWEuJtTUvd5Jrr05omGq4b52u6/gogwOihn8N8NS950l19fA2Sk0vLq1OXDVuKt7qXTuXYA0NZxKw6unJqvTdm+VWuyVQXW2/QDcyGY/UgpdVtLv/ANo2Sj0XEaxHHo079OpeAAAAAAAAAAAAAAAAAAAAAAAAAAAABEpJK26S5mjmdQ4eBxVqab+QGGqZxqoxa3vi+q5lblMSUZxcebaXe31PFgC0zeejiQcU3Fp+j57WiqAAAEAX2RwYSwsPk+GpbN7S86N45fAx5QdxdPkXGR1JTajLZ9H0b/AFgVGvR3w33X2LWM0218Oz28rKTWsW8RRr3F99wNXK5h4bco1bTW5b6VnXP2ZW5JXfir+5RG7o+Ko4m+3EuFd7QHQAAAAAAAAAAAAAAAAAAAAAAAAAHji5rDjdyW3Tr8gPDV3/AIn5tfcpHN0o26W6R7Z7MvElfRbRRrgACAAAAMgAAAQBZ5LVOCPDNOVcnty87K/GxOKUpfE2/mzAAGEwAOqwpXGL8Un9DMrchqMKjB+y0qvbh2XiWMZJq07XkBIAAAAAAAAAAAAAAAABhi4ijFyfRWBmaOY1OEXS9pp0/wD01s7qLaUYbWvaf4RWgbmb1CWIuGqX19WaYIAAAAyAAAAAgAAGQSQAADAAAAWmi5im4OW37F59aZVmWC6lF3VNb+G/MDqwY4eJGSuLTXkzIAAAAAAAAAAAAAAHjm5qMJNutmvoex5ZjCU4tNX4eT8QObAAAgAAGCAAAAEEkAAABAAAAMAAABAAAsdDxEptN1xKl5uy9OROg0vNqcUm/ajs75vzA3gAAAAAAAAAAAAA1842lxK9udfNOuu6XzZsADl5O2347kHvncLgxJKqV2uz8DXAAAAyAAAAAgAACCSAAAAAAAQSQwAAAG5pF/rRrwd9qNM2NPxVDEjJ8t0/VUB0wAAAAAAAAAAAAAAAK7WcO4KV+66rxspjoNSwuLDl/t9pen9Wc+AAIAAAAQAAAAEAAAAZYkHGr6pNdmBiAAIAYAAAAZYcOJpLq66fkxPbIr/Jh9faQHTxVJLw2JAAAAAAAAAAAAAAAInG0097VM5ZnR5vGjGL4v3JpfI5sAAZQg3sk32TYGIPX/Tz+CX/ABZtZDT3KTc00l3VsDTwcCU21FXW75GzDTMV9Eu7X4LzBwowSjFUkZgVcNGj+6bfZJfye60vCpqnv5vbsboApZ6PLpJc9ufIrpxcW0+aZ1ZUazlVX6lu7Srp6eAFZiTTUdt0qb8d3X02MLPTL5eWI6ir8fBdyc1hKE3FO+Gk+9b/AFsDyIJIYAAAAAAN/RsDixOLaobv1To1cpgfqTjG6vn26nS4GBGCqKr7vuwPQAAAAAAAAAAAAAAAGGJhqSqStFTi6TLifC1XS277FyAKrK6Vs/1Ouyp8vMs4RSVLoZAAAAAAAAAAY4kFJOL5NUzIAa2FhQwYbW1e+zbbe3Qqs5lOHCjN3xOT475721fy+pezunXPpfKzweXc4pYtSp3taXruBzINnUsDgxGuj9qPY1gAAAAACz0LCucpfCqXd/19y7NTSoVhQ25+0/V/xRtgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTa5gS4lOtqUW/B2+ZVHWyimqaTT5pmhi6Rhu+G03y32QFCDdwNMxHPhkqS3k/LyfibeqZFtKUN+FVS6LySW/UCnMoJ2tr3W1c/IsNHybcliO0o7x25/0XgGMG6VqnSsyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMW3a22p2/Pavz8jIFFHUsXDk4zqVbNPZ/NAXWJLgi2l7qulX0Jw5qSTXJpNepU4+s7exGn1br6UW8JWk/FWBIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABS67hJSjKveVN9Nvz/AAXR5ZnCU4tSVqgOay+HxTjH4mk/mdTFUkvDYr9My0VxrnUlzrok0+RYgAAAAAAAAAAB/9k=">
+    <br>
+    <p>Australia, officially the Commonwealth of Australia, is a sovereign country comprising the mainland of the Australian continent, the island of Tasmania, and numerous smaller islands. It is the largest country in Oceania and the world's sixth-largest country by total area.</p>
+<br>
+</body>
+</html>

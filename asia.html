@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asia.css">
+</head>
+<body>
+    <nav>
+        <ul>
+  <li class="items"><a href="lets.html">LET'S EXPLORE</a></li>
+  <li class="items"><a href="">ABOUT</a></li>
+  <li class="items"><a href="quiz.html">QUIZ TIME</a></li>
+  <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+  </ul>
+  </nav>
+      <script>
+        $(document).ready(function(){
+          $('.btn').click(function(){
+            $('.items').toggleClass("show");
+            $('ul li').toggleClass("hide");
+          });
+        });
+      </script>
+      <br>
+      <div class="direction" id="here">
+         
+            
+            <br> <br>
+            <h1 class="ml16">ASIA</h1>
+  
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+           <img id="map" src="data:image/png;base64,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" alt="lol">
+           <h3 class="ml9">
+            <span class="text-wrapper">
+              <span class="letters">Asia is Earth's largest and most populous continent, located primarily in the Eastern and Northern Hemispheres. It shares the continental landmass of Eurasia with the continent of Europe and the continental landmass of Afro-Eurasia with both Europe and Africa</span>
+            </span>
+          </h3>
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    
+</body>
+</html>

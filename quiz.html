@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <nav>
+        <ul>
+  <li class="items"><a href="lets.html">LET'S EXPLORE</a></li>
+  <li class="items"><a href="">ABOUT</a></li>
+  <li class="items"><a href="quiz.html">QUIZ TIME</a></li>
+  <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+  </ul>
+  </nav>
+      <script>
+        $(document).ready(function(){
+          $('.btn').click(function(){
+            $('.items').toggleClass("show");
+            $('ul li').toggleClass("hide");
+          });
+        });
+      </script>
+      <br>
+      <div class="direction" id="here">
+         
+    <h1>Here Follows the Quiz Go on Do It !</h1>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeB5T0x0YoDICE-sT0epH-H_lBMH_ITpVrRV2lMdw48RYMn2A/viewform?embedded=true" width="640" height="1641" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</body>
+</html>
